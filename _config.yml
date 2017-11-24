@@ -51,12 +51,34 @@ highlighter: pygments
 title : Blog of Arman Radmanesh
 description: "Arman Radmanesh blog. In this blog every so often I will write posts about various topics including personal notes, Web Development and Design, Software Development, Neuropsychology and etc."
 tagline: Site Tagline
+email: info@armanradmanesh.com
 author :
   name : Arman Radmanesh
   email : radmanesh@gmail.com
   github : radmanesh
 
-production_url : http://radmanesh.github.io
+# production_url : http://radmanesh.github.io
+production_url : http://blog.armanradmanesh.com
+
+## from shiroi
+
+plugins:
+  - jemoji
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
