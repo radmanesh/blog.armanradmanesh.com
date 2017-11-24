@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-11-04 15:34:15 +0330
 categories: jekyll update
+direction: 'rtl'
 ---
 
 ## نکاتی در باب طراحی وب

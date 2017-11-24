@@ -12,3 +12,20 @@
   @extend .table;
   @extend .table-bordered;
 }
+
+.post.post-rtl{
+  .post-title-main{
+    direction: rtl !important;
+  }
+  .post-content{
+    direction: rtl !important;
+  }
+}
+
+.rtl-element{
+  direction: rtl !important;
+}
+
+.ltr-element{
+  direction: ltr !important;
+}
