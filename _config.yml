@@ -32,6 +32,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-hinduarabic
+  - jekyll-markright
+
+markdown: Markright
 
 collections:
   projects:
@@ -39,7 +42,7 @@ collections:
 
 #disqus: false
 #disqus_shortname:
-google_analytics_id: UA-109137890-1
+#google_analytics_id: UA-109137890-1
 
 debate: true
 debate_acc: 'a3eaa4df18e01cfbeb182ce280ef5bfe'
