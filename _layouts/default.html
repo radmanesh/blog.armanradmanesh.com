@@ -1,58 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-<head>
-  {% include head.html %}
-</head>
-  <body>
-  {% if site.data.theme.color == "default" %}
-    <div class="navbar navbar-default navbar-static-top">
-  {% else %}
-    <div class="navbar navbar-inverse navbar-static-top">
-  {% endif %}
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-toggle-wrapper visible-xs">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <a href="{{ '/' | prepend:site.baseurl }}" class="navbar-brand">{{ site.title }}</a>
-        </div>
-        <div class="collapse navbar-collapse js-navbar-collapse">
-          <ul class="navbar-nav nav">
-            {% include nav.html %}
-          </ul>
-          <ul class="navbar-nav nav navbar-right">
-            {% include nav-right.html %}
-          </ul>
+<html dir="rtl" lang="fa">
+{% include head.html %}
+
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ '' | absolute_url}}">{{ site.title }}</a>
+        <small id="motto"> {{ site.motto }} </small>
+      </div>
+    </header>
+    <section class="content">
+      <div class="page-content">
+        <div class="wrapper">
+          {{- content -}}
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        {% if page.hide_sidebar or site.data.theme.hide_sidebar %}
-          <div class="col-sm-12">
-            {{ content }}
-          </div>
-        {% else %}
-          <div class="col-sm-8">
-            {{ content }}
-          </div>
-          <div class="col-sm-4">
-            {% include sidebar.html %}
-          </div>
-        {% endif %}
-      </div>
-      <div class="row footer">
-        <div class="col-sm-12 text-center">
-          {% include footer.html %}
-        </div>
-      </div>
-    </div>
-    <script src="{{ '/javascripts/jquery.min.js' | prepend:site.baseurl }}"></script>
-    <script src="{{ '/javascripts/bootstrap.min.js' | prepend:site.baseurl }}"></script>
-    {% include scripts.html %}
-  </body>
+    </section>
+    {%- include footer.html -%}
+  </div>
+  <script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
+</body>
+
 </html>

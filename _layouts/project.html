@@ -1,11 +1,22 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post project">
+
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
+
   <article class="post-content">
     {{ content }}
   </article>
+
 </div>
+
+{% if page.comments %}
+  {% include disqus.html %}
+{% endif %}
+
+{% if page.comments %}
+{% include intensedebate.html %}
+{% endif %}
