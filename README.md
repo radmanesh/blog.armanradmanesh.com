@@ -1,8 +1,6 @@
-# jekyll-theme-mehdix-rtl [![Gem Version](https://badge.fury.io/rb/jekyll-theme-mehdix-rtl.svg)](https://badge.fury.io/rb/jekyll-theme-mehdix-rtl)
+# jekyll-theme-bootstrap-rtl 
 
-![](screenshot.png)
-
-This is the jekyll theme used for my personal Persian [website](http://mehdix.ir). Persian aka Farsi is written right-to-left, however some people use Roman script to write Persian language in messaging applications and social networks.
+This is the jekyll theme used for my personal Persian [website](http://blog.armanradmanesh.com). Persian aka Farsi is written right-to-left, however some people use Roman script to write Persian language in messaging applications and social networks.
 
 During the last few years people have reached out to me asking how to setup a persian Jekyll website with Jalali calendar support. Since Jekyll now supports themes, I created this theme based on my website to help others to bootstrap their own websites.
 
@@ -19,13 +17,13 @@ Take the following steps to make your own website based on this theme. First of 
 Then add this line to your Jekyll site's Gemfile:
 
 ```ruby
-gem "jekyll-theme-mehdix-rtl"
+gem "jekyll-theme-bootstrap-rtl"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-theme-mehdix-rtl
+theme: jekyll-theme-bootstrap-rtl
 ```
 
 And then execute:
@@ -34,7 +32,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-theme-mehdix-rtl
+    $ gem install jekyll-theme-bootstrap-rtl
 
 
 You can override theme style by creating matching files with the same structure inside your Jekyll source tree. See Jekyll [Themes docs](https://jekyllrb.com/docs/themes/) for more information on that.
