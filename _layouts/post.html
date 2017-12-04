@@ -15,23 +15,25 @@ layout: default
     {{ content }}
   </article>
 
-  <small id="post-tags">
-    {% for tag in page.tags %}
-      <i class="icon-tags"></i>
-      <a rel="tag" href="{{ tag | tag_url  }}">{{tag}}</a> &nbsp;
-    {% endfor %}
-  </small>
+  <div id="post-tags" class="post-tags">
+    <ul class="list-inline">
+      {% for tag in page.tags %}
+      <li><a rel="tag" href="{{ tag | tag_url  }}"><span class="label label-primary label-tag"><i class="fa fa-tag" aria-hidden="true"></i> {{tag}}</span></a></li>
+      {% endfor %}
+    </ul>
+  </div>
 
-  <div style="border-top:1px dotted;">
-    <p>
+  <hr>
+  <nav aria-label="pagination">
+    <ul class="pager">
       {% if page.next %}
-        <a href="{{ page.next.url | absolute_url }}" style="float: left"> {{ page.next.title }} >> </a>
+      <li class="next"><a href="{{ page.next.url | absolute_url }}">{{ page.next.title }} <span aria-hidden="true">&larr;</span></a></li>
       {% endif %}
       {% if page.previous %}
-        <a href="{{ page.previous.url | absolute_url }}" style="margin-right:0px;">&#60&#60	 {{ page.previous.title }}</a>
+      <li class="previous"><a href="{{ page.previous.url | absolute_url }}"><span aria-hidden="true">&rarr;</span> {{ page.previous.title }}</a></li>
       {% endif %}
-    </p>
-  </div>
+    </ul>
+  </nav>
 
   {% if site.disqus %}
     {% include disqus.html %}

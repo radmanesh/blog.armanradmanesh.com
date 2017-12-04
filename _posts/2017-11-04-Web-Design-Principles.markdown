@@ -4,6 +4,7 @@ title:  "UI خوب و UI بد"
 date:   2017-11-04 15:34:15 +0330
 categories: UI/UX WebDesign Tutorial
 direction: 'rtl'
+tags: WebDesign UI/UX
 ---
 
 ## نکاتی در باب طراحی وب

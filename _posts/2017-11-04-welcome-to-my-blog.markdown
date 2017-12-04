@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Welcome to My Blog"
+title:  "به بلاگ من خوش آمدید"
 date:   2017-11-04 15:45:15 +0330
-categories: personal introduction
+categories: شخصی معرفی
+tags: شخصی
 ---
-In this blog every so often I will write posts about various topics including personal notes, Web Development and Design, Software Development, Neuropsychology and etc.
+به بلاگ من خوش آمدید در اینجا سعی خواهم کرد به مطالب متفاوتی درباره‌ً طراحی و ساخت وب و اپلیکشین، نوروساینس، و موضوعات شخصی بپردازم.
 

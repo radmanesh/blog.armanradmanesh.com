@@ -7,6 +7,7 @@
 $dir: 'rtl';
 @import "bootstrap/stylesheets/bootstrap";
 @import "fonts";
+@import "font-awesome.min.css";
 
 
 /*==========================================================================
@@ -22,6 +23,7 @@ $color-main-dark: #00635a;
 $color-main-light: #007d71;
 $color-white: #fff;
 $color-white-trans: rgba(255, 255, 255, 0.8);
+$color-white-transer: rgba(255, 255, 255, 0.6);
 $color-white-mild: #f5f5f5;
 $color-grey: #666;
 $color-grey-light: #8a8a8a;
@@ -29,6 +31,7 @@ $color-grey-dark: #444;
 $color-shadow: rgba(0, 0, 0, 0.14);
 $color-shadow2: rgba(0, 0, 0, 0.4);
 $color-shadow3: rgba(0, 0, 0, 0.3);
+$color-alt: #a332d6;
 
 // Theme
 body {
@@ -97,6 +100,10 @@ a.btn:hover {
   background: $color-main-light;
 }
 
+hr{
+  border-top: 1px dotted $color-grey-light;
+}
+
 
 .footer .container {
   padding: 30px;
@@ -126,13 +133,24 @@ a.btn:hover {
     background: $color-main;
     margin-bottom: 60px;
 
+    a.navbar-brand{
+      color: $color-white-trans;
+      font-family: "Titr";
+      font-size: 20px;
+      &:visited,
+      &:focus{
+        color: $color-white;
+      }
+    }
+
     +.container{
       padding-top:60px;
     }
   }
 
+
   a {
-    color: rgba(255, 255, 255, 0.6);
+    color: $color-white-transer;
     text-decoration: none;
     font-weight: 500;
   }
@@ -151,7 +169,7 @@ a.btn:hover {
     }
 
     a {
-      color: rgba(255, 255, 255, 0.6);
+      color: $color-white-transer;
 
       &:hover {
         color: $color-white;
@@ -184,7 +202,7 @@ a.btn:hover {
       }
 
       a {
-        color: rgba(255, 255, 255, 0.6);
+        color: $color-white-transer;
         padding: inherit;
 
         &:hover {
@@ -203,4 +221,31 @@ a.btn:hover {
       }
     }
   }
+}
+
+.post{
+  .post-header{
+    .post-title{
+      color: $color-main-darker;
+    }
+  }
+  .post-content a {
+    border-bottom: 1px dotted;
+    color: darken($color-main, 10%);
+    &:hover,
+    &:focus{
+      text-decoration: none;
+      color: $color-alt;
+    }
+  }
+  .post-tags{
+    text-align: left;
+    .label-tag{
+      background-color: $color-main-dark;
+    }
+  }
+}
+
+.pagination-nav{
+  margin: 20px 0;
 }
