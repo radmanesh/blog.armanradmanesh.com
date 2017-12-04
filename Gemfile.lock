@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme-mehdix-rtl (0.1.6)
+    jekyll-theme-bootstrap-rtl (0.1.1)
       jekyll (~> 3.3)
       jekyll-default-layout (~> 0.1)
       jekyll-hinduarabic (~> 0.1)
@@ -74,7 +74,7 @@ DEPENDENCIES
   jekyll-hinduarabic
   jekyll-jalali
   jekyll-tagging
-  jekyll-theme-mehdix-rtl!
+  jekyll-theme-bootstrap-rtl!
   rake (~> 10.0)
 
 BUNDLED WITH
