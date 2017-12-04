@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "UI خوب و UI بد"
-date:   2017-11-04 15:34:15 +0330
+date:   2017-11-04 15:34:15 
 categories: UI/UX WebDesign Tutorial
 direction: 'rtl'
 tags: WebDesign UI/UX
