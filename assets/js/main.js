@@ -1,5 +1,9 @@
+// This file contains JavaScript code required to display some bits on http://mehdix.ir
 
 // main.js
+
+// Central global variable
+var Mehdix = {};
 
 
 
