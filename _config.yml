@@ -29,10 +29,11 @@ tag_page_dir: tag
 
 plugins:
   - jekyll-jalali
+  - jekyll-hinduarabic
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-hinduarabic
   - jekyll-markright
+  - jekyll-tagging
 
 markdown: Markright
 

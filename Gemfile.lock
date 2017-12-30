@@ -2,10 +2,10 @@ PATH
   remote: .
   specs:
     jekyll-theme-bootstrap-rtl (0.1.1)
-      jekyll (~> 3.3)
+      jekyll (~> 3)
       jekyll-default-layout (~> 0.1)
       jekyll-hinduarabic (~> 0.1)
-      jekyll-jalali (~> 0.1)
+      jekyll-jalali (~> 0.1.1)
       jekyll-paginate (~> 1.1)
       jekyll-sitemap (~> 1.1)
 
