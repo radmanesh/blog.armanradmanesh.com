@@ -33,7 +33,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-markright
-  - jekyll-tagging
 
 markdown: Markright
 

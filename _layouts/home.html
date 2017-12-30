@@ -5,23 +5,23 @@ layout: default
   <h1 class="page-heading"> {{ "1" | habify }}</h1>
 
   <ul class="post-list">
-  {% if paginator %}
+    {% if paginator %}
     {% for post in paginator.posts %}
-      <li>
-        <span class="post-meta"><span class="date">{{ post.date | jdate: "%A %d %b %Y" | habify }}</span></span>
-        <h2><a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-        {{ post.content | strip_html | truncatewords: 35 }}
-      </li>
+    <li>
+      <span class="post-meta"><span class="date">{{ post.date | jdate: "%A %d %b %Y" | habify }}</span></span>
+      <h2><a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+      {{ post.content | strip_html | truncatewords: 35 }}
+    </li>
     {% endfor %}
-  {% else %}
+    {% else %}
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta"><span class="date">{{ post.date | jdate: "%A %d %b %Y" | habify }}</span></span>
-        <h2><a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-        {{ post.content | strip_html | truncatewords: 35 }}
-      </li>
+    <li>
+      <span class="post-meta"><span class="date">{{ post.date | jdate: "%A %d %b %Y" | habify }}</span></span>
+      <h2><a class="post-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+      {{ post.content | strip_html | truncatewords: 35 }}
+    </li>
     {% endfor %}
-  {% endif %}
+    {% endif %}
   </ul>
 
   <hr>
