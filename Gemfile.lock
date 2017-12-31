@@ -5,7 +5,7 @@ PATH
       jekyll (~> 3)
       jekyll-default-layout (~> 0.1)
       jekyll-hinduarabic (~> 0.1)
-      jekyll-jalali (~> 0.1.1)
+      jekyll-jalali (~> 0)
       jekyll-paginate (~> 1.1)
       jekyll-sitemap (~> 1.1)
 
@@ -101,7 +101,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.12)
   jekyll-default-layout
-  jekyll-hinduarabic
   jekyll-jalali
   jekyll-markright
   jekyll-tagging
@@ -109,4 +108,4 @@ DEPENDENCIES
   rake (~> 10.0)
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
