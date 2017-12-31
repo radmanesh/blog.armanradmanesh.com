@@ -3,6 +3,7 @@ gemspec
 
 group :jekyll_plugins do
   gem "jekyll-jalali"
-  gem 'jekyll-default-layout'
+  gem "jekyll-hinduarabic"
+  gem "jekyll-default-layout"
   gem "jekyll-tagging", :require => 'jekyll/tagging'
 end

@@ -4,6 +4,7 @@ PATH
     jekyll-theme-bootstrap-rtl (0.1.1)
       jekyll (~> 3)
       jekyll-default-layout (~> 0.1)
+      jekyll-hinduarabic (~> 0.1)
       jekyll-jalali (~> 0.1)
       jekyll-paginate (~> 1.1)
       jekyll-sitemap (~> 1.1)
@@ -30,6 +31,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
+    jekyll-hinduarabic (0.1.0)
     jekyll-jalali (0.1.2)
       jalalidate (~> 0.3)
     jekyll-paginate (1.1.0)
@@ -71,6 +73,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.12)
   jekyll-default-layout
+  jekyll-hinduarabic
   jekyll-jalali
   jekyll-tagging
   jekyll-theme-bootstrap-rtl!
