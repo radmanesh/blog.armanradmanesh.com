@@ -31,13 +31,15 @@ plugins:
   - jekyll-jalali
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-markright
+#  - jekyll-markright
 
-markdown: Markright
+#markdown: Markright
 
 collections:
   projects:
     output: true
+
+lang: fa_IR
 
 #disqus: false
 #disqus_shortname:
