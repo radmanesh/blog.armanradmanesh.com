@@ -18,13 +18,14 @@ build:
         name: generate site
         code: bundle exec jekyll build --trace --destination ./_site
 
-#    - create-file:
-#        name: generate robots.txt
-#        filename: ./_site/robots.txt
-#        content: |-
-#          User-agent: *
-#          Allow: /
-#          Sitemap: http://blog.armanradmanesh.com/sitemap.xml
+    - create-file:
+        name: generate robots.txt
+        filename: ./_site/robots.txt
+        overwrite: true
+        content: |-
+          User-agent: *
+          Allow: /
+          Sitemap: http://blog.armanradmanesh.com/sitemap.xml
 
 deploy:
   steps:
