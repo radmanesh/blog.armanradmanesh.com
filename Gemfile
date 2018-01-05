@@ -6,4 +6,5 @@ group :jekyll_plugins do
   gem "jekyll-hinduarabic"
   gem "jekyll-default-layout"
   gem "jekyll-tagging", :require => 'jekyll/tagging'
+  gem "jekyll-seo-tag"
 end

@@ -32,6 +32,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-hinduarabic
+  - jekyll-seo-tag
 #  - jekyll-markright
 
 #markdown: Markright

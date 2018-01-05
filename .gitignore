@@ -37,5 +37,4 @@ build/
 _site/
 *.sublime-workspace
 vendor
-backup/_plugins/jekyll-filtertest.rb
-backup/_plugins/jekyll-hinduarabic.rb
+backup
