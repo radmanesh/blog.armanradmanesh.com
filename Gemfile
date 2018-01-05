@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-jalali"
   gem "jekyll-hinduarabic"
   gem "jekyll-default-layout"
+  gem "jekyll-feed", "~> 0.6"
   gem "jekyll-tagging", :require => 'jekyll/tagging'
   gem "jekyll-seo-tag"
   gem "jekyll-markright"
