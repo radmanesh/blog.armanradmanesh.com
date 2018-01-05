@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem "jekyll-default-layout"
   gem "jekyll-tagging", :require => 'jekyll/tagging'
   gem "jekyll-seo-tag"
+  gem "jekyll-markright"
 end
