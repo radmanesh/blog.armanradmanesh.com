@@ -39,4 +39,12 @@ layout: default
     {% include disqus.html %}
   {% endif %}
 
+  {% if site.debate %}
+    {% include intensedebate.html %}
+  {% endif %}
+
+  {% if site.widgetpack %}
+    {% include widgetpack.html %}
+  {% endif %}
+
 </div>
