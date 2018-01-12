@@ -25,7 +25,7 @@ build:
         content: |-
           User-agent: *
           Allow: /
-          Sitemap: http://blog.armanradmanesh.com/sitemap.xml
+          Sitemap: https://blog.armanradmanesh.com/sitemap.xml
 
 deploy:
   steps:
