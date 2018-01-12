@@ -11,6 +11,7 @@ robot: ""
 description: > # this means to ignore newlines until "baseurl:"
   فضایی برای انتشار افکار و مطالبی پراکنده در رودخانه‌ی پریشان زندگی
 
+theme: jekyll-theme-bootstrap-rtl
 
 twitter_username: radmanesh
 github_username:  radmanesh
@@ -26,16 +27,6 @@ paginate_path: "/page:num/"
 
 tag_page_layout: tag_page
 tag_page_dir: tag
-
-plugins:
-  - jekyll-jalali
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-hinduarabic
-  - jekyll-seo-tag
-  - jekyll-markright
-
-markdown: Markright
 
 collections:
   projects:

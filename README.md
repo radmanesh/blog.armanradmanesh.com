@@ -47,19 +47,6 @@ The following layouts are available for your homepage:
 ### Comments
 In order to enalbe disqus comments add `disqus: true` to your `_config.yml` file. Moreover, you have to set `disqus_shortname` to your disqus username.
 
-### Forcing RTL code blocks
-If you put code blocks and they appear incorrectly, you can use _Markright gem. First add it to your Gemfile:
-
-```ruby
-gem "jekyll-markright"
-```
-
-And change your __config.yml_ respectively:
-
-```yaml
-markdown: Markright
-```
-
 ### Analytics
 In order to send pageviews to Google Analytics set your ID in the `_config.yml`: `google_analytics_id: YOUR_ID`
 
