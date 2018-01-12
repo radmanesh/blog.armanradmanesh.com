@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="text" xml:lang="fa">گاه‌نبشت‌های آرمان رادمنش</title>
+<link rel="alternate" type="text/html" href="https://blog.armanradmanesh.com"/>
+<link rel="self" type="application/atom+xml" href="https://blog.armanradmanesh.com/feed.xml"/>
+<updated>2018-01-12T16:51:23Z</updated>
+<id>urn:uuid:1e7d9dd8-29e4-475d-adc5-17494fb80445</id>
+<author>
+  <name>Arman Radmanesh</name>
+  <uri>https://blog.armanradmanesh.com</uri>
+  <email>radmanesh@gmail.com</email>
+</author>
+<rights>Commons Attribution 4.0 International</rights>
+
+  <entry>
+    <title>فیلتر‌شکن داخلی تلگرام</title>
+    <link rel="alternate" type="text/html" href="https://blog.armanradmanesh.com/Telegram-built-in-proxy.html"/>
+    <id>urn:uuid:</id>
+    <updated>2018-01-12T01:13:15Z</updated>
+    <category term="فیلترشکن"/><category term="راهنما"/>
+    <content type="html">
+      <![CDATA[<div dir="rtl"><h3 id="چگونه-از-فیلترشکن-داخلی-تلگرام-استفاده-کنیم">چگونه از فیلترشکن داخلی تلگرام استفاده کنیم</h3>
+
+<ul>
+  <li>
+    <p>از بالای صفحه تلگرام قسمت سرچ یعنی همان علامت ذره‌بین را انتخاب کرده و گزینه socks5 راتایپ نمایید.</p>
+  </li>
+  <li>
+    <p>روی socks5 proxy bot کلیک کنید، دکمه start را بزنید.</p>
+  </li>
+  <li>
+    <p>در انتخاب زبان، روی گزینه English کلیک کنید،</p>
+  </li>
+  <li>
+    <p>پایین صفحه روی گزینه get کلیک نمایید،</p>
+  </li>
+  <li>
+    <p>در صفحه باز شده از سه گزینه داده شده یکی را به دلخواه انتخاب نمایید،</p>
+  </li>
+  <li>
+    <p>در صفحه باز شده مشخصات ip داده میشود.</p>
+  </li>
+  <li>
+    <p>در پایین صفحه گزینه بر روی ایکون connect کلیک نمایید،</p>
+  </li>
+  <li>
+    <p>شما از این به بعد با پروکسی خود تلگرام، بدون هیچ فیلترشکنی میتوانید کانکت شوید،</p>
+  </li>
+  <li>
+    <p>برای اطمینان یک بار از تلگرام خارج شده و فیلتر شکن خود را بسته و دوباره وارد تلگرام شوید.</p>
+  </li>
+  <li>
+    <p>در بالای صفحه تلگرام گزینه connecting socks5 proxy مشاهده میشود.</p>
+  </li>
+</ul>
+
+</div>]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>UI خوب و UI بد ۴</title>
+    <link rel="alternate" type="text/html" href="https://blog.armanradmanesh.com/Web-Design-Principles-4.html"/>
+    <id>urn:uuid:</id>
+    <updated>2017-12-04T15:34:15Z</updated>
+    <category term="WebDesign"/><category term="UI/UX"/>
+    <content type="html">
+      <![CDATA[<div dir="rtl"><h2 id="نکاتی-در-باب-طراحی-وب-۴">نکاتی در باب طراحی وب ۴</h2>
+
+<h1 id="بجای-نمایش-ناگهانی-تغییرات-از-transitionها-کمک-بگیرید">بجای نمایش ناگهانی تغییرات از Transitionها کمک بگیرید</h1>
+
+<p>بخش‌های مختلف سایت در حالی که کاربر به بازدید از سایت می‌پردازد به تناسب بارها ظاهر، ناپدید، جابجا می‌شوند، حرکت می‌کنند و اندازه‌شان تغییر می‌کند. هنگامی که عناصر سایت به رفتارهای ما پاسخ می‌دهند، بعضی اوقات با آشکار کردن تغییرات در گذر زمان، فهمیدن و درک این که چه اتفاقی افتاده ساده‌تر می‌شود. با ایجاد وقفه‌ای عمدی به صورت انیمیشن یا تغییر حالت، به شناخت کمک کرده و زمان لازم برای فهم تغییرات اندازه یا مکان را برای مردم ایجاد می‌کند. البته در نظر داشته باشید که با زیاد کردن زمان چنین تغییراتی بیش از نیم ثانیه، برای عده‌ای موقعیت‌های ناخوشایند ایجاد خواهد کرد مخصوصا کسانی که به انجام سریع کارها علاقه دارند این وقفه‌ها باعث کلافگی‌شان خواهد شد.</p>
+
+<p><img src="https://blog.armanradmanesh.com/assets/img/principle-3.png" alt="Hi" /></p>
+</div>]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>UI خوب و UI بد ۳</title>
+    <link rel="alternate" type="text/html" href="https://blog.armanradmanesh.com/Web-Design-Principles-3.html"/>
+    <id>urn:uuid:</id>
+    <updated>2017-12-04T15:14:15Z</updated>
+    <category term="WebDesign"/><category term="UI/UX"/>
+    <content type="html">
+      <![CDATA[<div dir="rtl"><h2 id="نکاتی-در-باب-طراحی-وب-۳">نکاتی در باب طراحی وب ۳</h2>
+
+<h1 id="بجای-نمایش-ناگهانی-تغییرات-از-transitionها-کمک-بگیرید">بجای نمایش ناگهانی تغییرات از Transitionها کمک بگیرید</h1>
+
+<p>بخش‌های مختلف سایت در حالی که کاربر به بازدید از سایت می‌پردازد به تناسب بارها ظاهر، ناپدید، جابجا می‌شوند، حرکت می‌کنند و اندازه‌شان تغییر می‌کند. هنگامی که عناصر سایت به رفتارهای ما پاسخ می‌دهند، بعضی اوقات با آشکار کردن تغییرات در گذر زمان، فهمیدن و درک این که چه اتفاقی افتاده ساده‌تر می‌شود. با ایجاد وقفه‌ای عمدی به صورت انیمیشن یا تغییر حالت، به شناخت کمک کرده و زمان لازم برای فهم تغییرات اندازه یا مکان را برای مردم ایجاد می‌کند. البته در نظر داشته باشید که با زیاد کردن زمان چنین تغییراتی بیش از نیم ثانیه، برای عده‌ای موقعیت‌های ناخوشایند ایجاد خواهد کرد مخصوصا کسانی که به انجام سریع کارها علاقه دارند این وقفه‌ها باعث کلافگی‌شان خواهد شد.</p>
+
+<p><img src="https://blog.armanradmanesh.com/assets/img/principle-3.png" alt="Hi" /></p>
+</div>]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>UI خوب و UI بد ۲</title>
+    <link rel="alternate" type="text/html" href="https://blog.armanradmanesh.com/Web-Design-Principles-2.html"/>
+    <id>urn:uuid:</id>
+    <updated>2017-12-03T15:34:15Z</updated>
+    <category term="WebDesign"/><category term="UI/UX"/>
+    <content type="html">
+      <![CDATA[<div dir="rtl"><h2 id="نکاتی-در-باب-طراحی-وب-۲">نکاتی در باب طراحی وب ۲</h2>
+
+<h1 id="سعی-کنید-بجای-پایانهای-مجازی-از-پیوستگی-پیشنهاددهنده-استفاده-کنید">سعی کنید بجای پایان‌های مجازی از ”پیوستگی پیشنهاددهنده“ استفاده کنید</h1>
+
+<p>پایان مجازی کشنده میزان خوانده شدن بخشی از مطالب شماست. بله صفحات بلندی که باید اسکرول شوند عالی‌اند، ولی مواظب باشید بین بخش‌های جدای صفحه خواننده احساس نکند که صفحه پایان یافته درصورتی که عملا اینطور نیست. اگر از صفحاتی استفاده می‌کنید که نیاز به اسکرول دارند، بهتر است الگوی بصری یا ریتمی ایجاد کنید که کاربر بتواند آنرا یاد بگیرد و با تکیه بر آن تا انتهای صفحه را مطالعه کند.
+بعلاوه مواظب فواصل بزرگی (که) در اطراف جاهایی که ممکن است تاخوردگی (منظورم از تا خوردگی تغییر قرارگیری بخش‌هایی از سایت در دستگاه‌ها با اندازه‌های متفاوت است) رخ دهد باشید.</p>
+
+<p><img src="https://blog.armanradmanesh.com/assets/img/principle-2.png" alt="Hi" /></p>
+</div>]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>UI خوب و UI بد</title>
+    <link rel="alternate" type="text/html" href="https://blog.armanradmanesh.com/Web-Design-Principles.html"/>
+    <id>urn:uuid:</id>
+    <updated>2017-11-04T15:34:15Z</updated>
+    <category term="WebDesign"/><category term="UI/UX"/>
+    <content type="html">
+      <![CDATA[<div dir="rtl"><h2 id="نکاتی-در-باب-طراحی-وب">نکاتی در باب طراحی وب</h2>
+
+<h1 id="استفاده-از-صفحه-آرایی-تک-ستون-بجای-چند-ستون">استفاده از صفحه آرایی تک ستون بجای چند ستون</h1>
+
+<p>صفحه‌آرایی تک ستون کنترل بیشتری بر روی روایت صفحه‌تان در اختیار می‌گذارد. احتمالا این خوانندگان شما را به روال معمول خواندن از بالا به پایین هدایت خواهد کرد. درحالی‌که در راهکار چند ستونی ریسک این که خواننده از موضوع اصلی و هدف نهایی صفحه حواسش پرت شود وجود دارد. مخاطبان را با روایت خود و در صورت لزوم در انتها با یک کال تو اکشن هدایت کنید.</p>
+
+<p><img src="https://blog.armanradmanesh.com/assets/img/principle-1.png" alt="Hi" /></p>
+</div>]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>به بلاگ من خوش آمدید</title>
+    <link rel="alternate" type="text/html" href="https://blog.armanradmanesh.com/welcome-to-my-blog.html"/>
+    <id>urn:uuid:</id>
+    <updated>2017-11-04T15:45:15Z</updated>
+    <category term="شخصی"/>
+    <content type="html">
+      <![CDATA[<div dir="rtl"><p>به بلاگ من خوش آمدید در اینجا سعی خواهم کرد به مطالب متفاوتی درباره‌ً طراحی و ساخت وب و اپلیکشین، نوروساینس، و موضوعات شخصی بپردازم.</p>
+
+</div>]]>
+    </content>
+  </entry>
+
+</feed>
